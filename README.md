@@ -17,7 +17,6 @@ This project is part of the Yamral Africa Safari, Tour and Travel platform, desi
 
 ```
 ├── index.html                 # Main entry point (homepage)
-├── overview.html              # Overview of itinerary
 ├── destination.html           # Destination details
 ├── Accomodation.html          # Accommodation listings
 ├── daily_information.html      # Daily itinerary details
