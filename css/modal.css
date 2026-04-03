@@ -1,0 +1,104 @@
+/* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 4%;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        /* The Close Button */
+        .close {
+            color: #000;
+            position: relative;
+            left: 94%;
+            float: right;
+            font-size: 2vw;
+            font-weight: bold;
+            width: 8%;
+            z-index: 2;
+            margin-top: 1%;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #aaa;
+            text-decoration: none;
+            cursor: pointer;
+        }
+button {
+    border: none;
+    background-color: #fff;
+    font-weight: 700;
+    
+}
+
+button:hover{
+    color: #ffe65e;
+}
+
+.modal-content>h5{
+    position: absolute;
+    z-index: 1;
+    width: 88%;
+    font-weight: 600;
+    font-size: 1.8vw;
+    padding: 0.5%;
+    text-align: justify;
+    background-color: #ffe65e;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.modal-content>p{
+    text-align: justify;
+    width: 98%;
+    font-size: 1.5vw;
+    padding: 1%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .modal-content>h5{
+   font-size: 3vw;
+    padding: 0.9%;
+}
+
+.modal-content>p{
+    font-size: 2.5vw;
+    margin-top: 0;
+} 
+     .close {font-size: 4vw; left: 90%;} 
+    
+}
+
+@media only screen and (max-width: 414px) {
+   .modal-content>h5{
+   font-size: 5vw;
+    padding: 0.9%;
+}
+
+.modal-content>p{
+    font-size: 4vw;
+    padding: 2%;
+    margin-top: 6%;
+} 
+     .close {font-size: 5vw; left: 90%; margin-top: 2%;}
+    
+}

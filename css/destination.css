@@ -1,0 +1,123 @@
+body {
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+#logo {
+    transition: 0.2s;
+}
+
+.scrollTop {}
+
+.alldestination {
+    width: 90%;
+    margin: 1% auto;
+}
+
+
+
+.destin_discrip {
+    width: 78%;
+    float: left;
+    text-align: justify;
+    color: white;
+    padding: 5px;
+    
+}
+
+.destin_discrip>p{font-size: 1.2vw;}
+
+.destin_acc {
+    width: 22%;
+    float: right;
+    vertical-align: top;
+    margin-top: 1%;
+   
+}
+
+
+
+.racetimes{width: 100%;}
+
+
+.destin_image {
+    width: 78%;
+    float: left;
+}
+
+.smallimage{
+    
+    padding: 0.5%;
+}
+
+
+#times {
+    width: 100%;
+}
+
+.push_down {
+    margin-top: 5%;
+}
+
+/* Accomdations Multiple Tab Section */
+
+.frame_acc{
+    width: 75%;
+    float: left;
+}
+.content>p{
+    font-size: 1.3vw;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+     .destin_acc {
+        width: 100%;
+        float: none;}
+
+    table {
+        width: 100%}
+
+    .destin_image {
+        background-color: #ffe65e;
+        width: 100%;
+        float: none;
+        margin-top: 0;}
+    .destin_discrip{margin-bottom: 0; padding: 0;}
+    .destin_discrip{background-color: rgb(46, 47, 49); width: 100%;}
+    .destin_discrip>p{font-size: 1.8vw;}
+    .alldestination {width: 95%;}
+    .racetimes{width: 100%;}
+    .destin_header{background-color: #000;}
+    .frame_acc{
+    width:100%;
+    float: none;
+        margin: 0 auto;
+}
+
+}
+
+@media only screen and (max-width: 414px) {
+    .destin_acc {
+        width: 100%;
+        float: none;
+        margin-top: 1%;
+        }
+
+    table {
+        width: 100%}
+
+    .destin_image {
+        width: 100%;
+        float: none;
+        margin-top: 0;
+        margin-bottom: 0;}
+    .destin_discrip{margin-bottom: 0; padding: 0;}
+     .destin_discrip{background-color: rgb(46, 47, 49); width: 100%;}
+    .destin_discrip>p{font-size: 3.2vw; margin: 0 auto;}
+    .alldestination {width: 95%;}
+    .racetimes{width: 100%;}
+    .content>p{font-size: 3.8vw;}
+    
+    
+}
